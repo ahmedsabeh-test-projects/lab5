@@ -15,7 +15,7 @@ Create an inventory file named `inventory.ini` and add your managed node details
 <EC2_PUBLIC_IP> ansible_user=ec2-user ansible_ssh_private_key_file=path_to_ec2_private_key
 ```
 2️⃣ Create Ansible Playbook
-Create a file named webserver.yaml with the following content:
+Create a file named `webserver.yaml` with the following content:
 ```
 ---
 - name: Configure web server on Amazon Linux 2023
